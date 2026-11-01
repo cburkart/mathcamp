@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Math Camp for Intermediate Microeconomics",
+    "section": "",
+    "text": "Welcome\nThis mini-book reviews the math you’ll use in Intermediate Microeconomics. Each chapter explains one skill and then gives you unlimited practice: every practice problem is generated with fresh numbers, so you can keep going until the method feels automatic.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#how-the-practice-problems-work",
+    "href": "index.html#how-the-practice-problems-work",
+    "title": "Math Camp for Intermediate Microeconomics",
+    "section": "How the practice problems work",
+    "text": "How the practice problems work\n\nWork each problem on paper first, the same way you will on exams. Then type your final answers to check them.\nAnswers can be whole numbers, decimals, or fractions (-1/4 and -0.25 both work).\nIf an answer is wrong, the feedback tries to tell you why, for example if you made a common sign or algebra mistake.\nShow solution reveals a worked solution with the same numbers as your problem. Compare it with your own steps.\nEvery problem has a number. If you get stuck, note the number (for example, Problem #4821) and bring it to office hours: the same number always produces the same problem.\n\nThe first time you open a chapter with practice problems, your browser downloads a small version of R, which can take a few seconds. After that, problems load quickly.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "inverse-demand.html",
+    "href": "inverse-demand.html",
+    "title": "1  Solving for Price: Inverse Demand",
+    "section": "",
+    "text": "1.1 The method\nDemand curves are usually written with quantity as a function of price, such as \\(Q = 120 - 4P\\). But graphs in economics put price on the vertical axis, and many problems ask “what price clears the market if \\(Q\\) units are sold?” For both reasons you’ll often need the inverse demand curve: the same relationship solved for \\(P\\).\nStart from \\(Q = a - bP\\) and isolate \\(P\\):\n\\[\n\\begin{aligned}\nbP &= a - Q \\\\\nP &= \\frac{a}{b} - \\frac{1}{b}\\,Q\n\\end{aligned}\n\\]\nSo the inverse demand curve has intercept \\(a/b\\) and slope \\(-1/b\\).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Solving for Price: Inverse Demand</span>"
+    ]
+  },
+  {
+    "objectID": "inverse-demand.html#the-method",
+    "href": "inverse-demand.html#the-method",
+    "title": "1  Solving for Price: Inverse Demand",
+    "section": "",
+    "text": "NoteExample\n\n\n\nIf \\(Q = 120 - 4P\\), then \\(4P = 120 - Q\\), so \\(P = 30 - 0.25Q\\). The intercept, 30, is the choke price: the price at which quantity demanded falls to zero.\n\n\n\n\n\n\n\n\nWarningCommon mistake\n\n\n\nThe slope of the inverse demand curve is \\(-1/b\\), not \\(-b\\). Solving for \\(P\\) means dividing everything by \\(b\\), including the coefficient on \\(Q\\).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Solving for Price: Inverse Demand</span>"
+    ]
+  },
+  {
+    "objectID": "inverse-demand.html#practice",
+    "href": "inverse-demand.html#practice",
+    "title": "1  Solving for Price: Inverse Demand",
+    "section": "1.2 Practice",
+    "text": "1.2 Practice\n\npractice(\"inverse_demand\", problem_json, check_json)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Solving for Price: Inverse Demand</span>"
+    ]
+  }
+]
