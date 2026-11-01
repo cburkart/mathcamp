@@ -1,0 +1,24 @@
+# Welcome {.unnumbered}
+
+This mini-book reviews the math you'll use in Intermediate Microeconomics.
+Each chapter explains one skill and then gives you **unlimited practice**: every
+practice problem is generated with fresh numbers, so you can keep going until
+the method feels automatic.
+
+## How the practice problems work
+
+- **Work each problem on paper first**, the same way you will on exams. Then
+  type your final answers to check them.
+- Answers can be whole numbers, decimals, or fractions (`-1/4` and `-0.25`
+  both work).
+- If an answer is wrong, the feedback tries to tell you *why*, for example if
+  you made a common sign or algebra mistake.
+- **Show solution** reveals a worked solution with the same numbers as your
+  problem. Compare it with your own steps.
+- Every problem has a number. If you get stuck, note the number (for example,
+  *Problem #4821*) and bring it to office hours: the same number always
+  produces the same problem.
+
+The first time you open a chapter with practice problems, your browser
+downloads a small version of R, which can take a few seconds. After that,
+problems load quickly.

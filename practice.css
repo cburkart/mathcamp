@@ -1,0 +1,74 @@
+/* Styles for the practice widget (practice.js). Uses Bootstrap variables so it
+   follows the book's theme, including dark mode. */
+
+.practice {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-left: 4px solid var(--bs-primary, #0d6efd);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  background: var(--bs-tertiary-bg, transparent);
+}
+
+.practice-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.practice-id {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.practice-controls {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.practice-goto { width: 6.5rem; }
+
+.practice-prompt p:last-child { margin-bottom: 0.75rem; }
+
+.practice-part {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) 8rem;
+  gap: 0.25rem 0.75rem;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.practice-part label { margin: 0; }
+
+.practice-feedback {
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+}
+.practice-feedback:empty { display: none; }
+.practice-feedback.is-correct { color: var(--bs-success, #198754); }
+.practice-feedback.is-wrong   { color: var(--bs-danger, #dc3545); }
+
+.practice-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.practice-status { margin: 0.5rem 0 0; font-size: 0.9rem; }
+.practice-status:empty { display: none; }
+
+.practice-solution {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--bs-border-color, #dee2e6);
+}
+.practice-solution li { margin-bottom: 0.35rem; }
+
+@media (max-width: 576px) {
+  .practice { padding: 0.75rem; }
+  .practice-part { grid-template-columns: 1fr; }
+}

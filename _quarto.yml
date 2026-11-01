@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - practice.js
+
+book:
+  title: "Math Camp for Intermediate Microeconomics"
+  author: "Christopher Burkart"
+  repo-url: https://github.com/cburkart/mathcamp
+  repo-actions: [issue]
+  chapters:
+    - index.qmd
+    - inverse-demand.qmd
+
+engine: knitr
+
+format:
+  live-html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: practice.css
+    toc: true
+
+# webR settings (quarto-live). The problem generators are installed in the
+# browser from the econgen package's GitHub Pages site.
+webr:
+  packages:
+    - econgen
+  repos:
+    - https://cburkart.github.io/econgen

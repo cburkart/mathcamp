@@ -1,0 +1,18 @@
+{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
+
+```{webr}
+#| edit: false
+#| echo: false
+#| output: false
+#| define:
+#|   - problem_json
+#|   - check_json
+# Hidden setup: expose the econgen functions to the page's JavaScript.
+problem_json <- econgen::problem_json
+check_json <- econgen::check_json
+```
+
+```{ojs}
+//| echo: false
+import { practice } from "./practice.js"
+```

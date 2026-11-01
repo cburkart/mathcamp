@@ -1,0 +1,42 @@
+# Solving for Price: Inverse Demand
+
+{{< include _common.qmd >}}
+
+Demand curves are usually written with quantity as a function of price, such
+as $Q = 120 - 4P$. But graphs in economics put price on the vertical axis, and
+many problems ask "what price clears the market if $Q$ units are sold?" For
+both reasons you'll often need the **inverse demand curve**: the same
+relationship solved for $P$.
+
+## The method
+
+Start from $Q = a - bP$ and isolate $P$:
+
+$$
+\begin{aligned}
+bP &= a - Q \\
+P &= \frac{a}{b} - \frac{1}{b}\,Q
+\end{aligned}
+$$
+
+So the inverse demand curve has intercept $a/b$ and slope $-1/b$.
+
+::: {.callout-note}
+## Example
+If $Q = 120 - 4P$, then $4P = 120 - Q$, so $P = 30 - 0.25Q$.
+The intercept, 30, is the **choke price**: the price at which quantity
+demanded falls to zero.
+:::
+
+::: {.callout-warning}
+## Common mistake
+The slope of the inverse demand curve is $-1/b$, **not** $-b$. Solving for
+$P$ means dividing *everything* by $b$, including the coefficient on $Q$.
+:::
+
+## Practice
+
+```{ojs}
+//| echo: false
+practice("inverse_demand", problem_json, check_json)
+```
