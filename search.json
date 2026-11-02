@@ -80,11 +80,11 @@
     ]
   },
   {
-    "objectID": "percent-change.html#percentage-changes-dont-reverse",
-    "href": "percent-change.html#percentage-changes-dont-reverse",
+    "objectID": "percent-change.html#percentage-changes-dont-always-reverse-nicely",
+    "href": "percent-change.html#percentage-changes-dont-always-reverse-nicely",
     "title": "2  Percentage Change",
-    "section": "2.2 Percentage changes don’t reverse",
-    "text": "2.2 Percentage changes don’t reverse\nSuppose the price then falls back from $12 to $10. The change is −$2, but the starting value is now $12:\n\\[\n\\frac{10 - 12}{12} \\times 100 = -16.67\\%\n\\]\nA 20% increase followed by a 16.67% decrease gets you back where you started. The same $2 is a smaller share of a bigger base. To fix this we can use the midpoint formula (a.k.a. “arc elasticity”), which divides by the average of the two values so that the answer is the same in both directions.\n\n\n\n\n\n\nWarningCommon mistakes\n\n\n\n\nDividing by the new value instead of the starting value.\nForgetting to multiply by 100 if you want a percentage measure: 0.2 is the change as a decimal; 20% is the percentage.\nDropping the minus sign on a decrease.",
+    "section": "2.2 Percentage changes don’t always reverse nicely",
+    "text": "2.2 Percentage changes don’t always reverse nicely\nSuppose the price then falls back from $12 to $10. The change is −$2, but the starting value is now $12:\n\\[\n\\frac{10 - 12}{12} \\times 100 = -16.67\\%\n\\]\nA 20% increase followed by a 16.67% decrease gets you back where you started. The same $2 is a smaller share of a bigger base. To fix this we can use the midpoint formula (a.k.a. arc elasticity), which divides by the average of the two values so that the answer is the same in both directions.\n\n\n\n\n\n\nWarningCommon mistakes\n\n\n\n\nDividing by the new value instead of the starting value.\nForgetting to multiply by 100 if you want a percentage measure: 0.2 is the change as a decimal; 20% is the percentage.\nDropping the minus sign on a decrease.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Percentage Change</span>"
     ]
