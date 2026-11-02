@@ -37,14 +37,13 @@ $$
 
 A 20% increase followed by a 16.67% decrease gets you back where you started.
 The same \$2 is a smaller share of a bigger base. To fix this we can use
-the *midpoint formula*, which divides by the average of the two values so that
-the answer is the same in both directions. For now, always divide by the
-starting value.
+the *midpoint formula* (a.k.a. "arc elasticity"), which divides by the average of the two values so that
+the answer is the same in both directions.
 
 ::: {.callout-warning}
 ## Common mistakes
-- Dividing by the **new** value instead of the starting value.
-- Forgetting to multiply by 100: 0.2 is the change as a decimal; 20% is the
+- Dividing by the new value instead of the starting value.
+- Forgetting to multiply by 100 if you want a percentage measure: 0.2 is the change as a decimal; 20% is the
   percentage.
 - Dropping the minus sign on a decrease.
 :::
