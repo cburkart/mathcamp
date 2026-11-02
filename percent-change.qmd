@@ -26,7 +26,7 @@ $$
 $$
 :::
 
-## Percentage changes don't reverse
+## Percentage changes don't always reverse nicely
 
 Suppose the price then falls back from \$12 to \$10. The change is −\$2, but the
 starting value is now \$12:
@@ -37,7 +37,7 @@ $$
 
 A 20% increase followed by a 16.67% decrease gets you back where you started.
 The same \$2 is a smaller share of a bigger base. To fix this we can use
-the *midpoint formula* (a.k.a. "arc elasticity"), which divides by the average of the two values so that
+the *midpoint formula* (a.k.a. *arc elasticity*), which divides by the average of the two values so that
 the answer is the same in both directions.
 
 ::: {.callout-warning}
