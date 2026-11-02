@@ -1,0 +1,57 @@
+# Percentage Change
+
+{{< include _common.qmd >}}
+
+We compare changes in percentage terms all the time. A \$1 price
+increase means something very different for a \$4 coffee than for a \$4,000
+laptop. Percentage changes put both on the same scale, and are the
+building block of **elasticity**.
+
+## The method
+
+When a value changes from an original value $x_0$ to a new value $x_1$:
+
+$$
+\%\Delta x = \frac{x_1 - x_0}{x_0} \times 100
+$$
+
+Take the change, divide by the **starting** value, and multiply by
+100. Increases are positive and decreases are negative.
+
+::: {.callout-note}
+## Example
+A price rises from \$10 to \$12. The change is \$2, so the percentage change is
+$$
+\frac{12 - 10}{10} \times 100 = \frac{2}{10} \times 100 = 20\%.
+$$
+:::
+
+## Percentage changes don't reverse
+
+Suppose the price then falls back from \$12 to \$10. The change is −\$2, but the
+starting value is now \$12:
+
+$$
+\frac{10 - 12}{12} \times 100 = -16.67\%
+$$
+
+A 20% increase followed by a 16.67% decrease gets you back where you started.
+The same \$2 is a smaller share of a bigger base. To fix this we can use
+the *midpoint formula*, which divides by the average of the two values so that
+the answer is the same in both directions. For now, always divide by the
+starting value.
+
+::: {.callout-warning}
+## Common mistakes
+- Dividing by the **new** value instead of the starting value.
+- Forgetting to multiply by 100: 0.2 is the change as a decimal; 20% is the
+  percentage.
+- Dropping the minus sign on a decrease.
+:::
+
+## Practice
+
+```{ojs}
+//| echo: false
+practice("percent_change", problem_json, check_json)
+```

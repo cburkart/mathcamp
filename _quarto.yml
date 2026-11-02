@@ -12,6 +12,7 @@ book:
   chapters:
     - index.qmd
     - inverse-demand.qmd
+    - percent-change.qmd
 
 engine: knitr
 

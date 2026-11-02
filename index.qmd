@@ -11,7 +11,7 @@ practice problem is generated with fresh numbers, so you can keep going until yo
 - If an answer is wrong, the feedback tries to tell you *why*, for example if you made a common sign or algebra mistake. 
 - **Show solution** reveals a worked solution with the same numbers as your
   problem. Compare it to your own steps.
-- Every problem has a number (this is technically something callsed a *random seed* associated with a specific set of parameter values for each question). If you get stuck or find a glitch, you can note the number (for example, *Problem #4821*) to replicate it: the same number always produces the same problem.
+- Every problem has a number.^[This is technically something called a *random seed* associated with a specific set of parameter values for each question] If you get stuck or find a glitch, you can note the number (for example, *Problem #4821*) to replicate it: the same number always produces the same problem.
 
 The first time you open a chapter with practice problems, your browser
-downloads a small version of R, which can take a few seconds during which you'll see a javascript error. After that, problems should load quickly.
+downloads a small version of R, which can take a few seconds during which you'll see a javascript error. 
