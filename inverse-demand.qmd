@@ -2,11 +2,8 @@
 
 {{< include _common.qmd >}}
 
-Demand curves are usually written with quantity as a function of price, such
-as $Q = 120 - 4P$. But graphs in economics put price on the vertical axis, and
-many problems ask "what price clears the market if $Q$ units are sold?" For
-both reasons you'll often need the **inverse demand curve**: the same
-relationship solved for $P$.
+Demand functions are usually written with quantity as a function of price, such
+as $Q = 120 - 4P$ (quantity demanded depends on price, or $Q$ is a function of $P$). However, in economics we typically put price on the vertical axis when graphing. Also, some problems may ask "what price clears the market if $Q$ units are sold?" For both reasons you'll often want to use the **inverse demand curve**: the same relationship solved for $P$ as a function of $Q$.
 
 ## The method
 
