@@ -14,7 +14,17 @@
     "href": "index.html#how-the-practice-problems-work",
     "title": "Math Camp for Intermediate Microeconomics",
     "section": "How the practice problems work",
-    "text": "How the practice problems work\n\nWork each problem on paper first, then type your final answers to check them.\nAnswers can be whole numbers, decimals, or fractions (-1/4 and -0.25 should both work).\nIf an answer is wrong, the feedback tries to tell you why, for example if you made a common sign or algebra mistake.\nShow solution reveals a worked solution with the same numbers as your problem. Compare it to your own steps.\nEvery problem has a number (this is technically something callsed a random seed associated with a specific set of parameter values for each question). If you get stuck or find a glitch, you can note the number (for example, Problem #4821) to replicate it: the same number always produces the same problem.\n\nThe first time you open a chapter with practice problems, your browser downloads a small version of R, which can take a few seconds during which you’ll see a javascript error. After that, problems should load quickly.",
+    "text": "How the practice problems work\n\nWork each problem on paper first, then type your final answers to check them.\nAnswers can be whole numbers, decimals, or fractions (-1/4 and -0.25 should both work).\nIf an answer is wrong, the feedback tries to tell you why, for example if you made a common sign or algebra mistake.\nShow solution reveals a worked solution with the same numbers as your problem. Compare it to your own steps.\nEvery problem has a number.1 If you get stuck or find a glitch, you can note the number (for example, Problem #4821) to replicate it: the same number always produces the same problem.\n\nThe first time you open a chapter with practice problems, your browser downloads a small version of R, which can take a few seconds during which you’ll see a javascript error.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Math Camp for Intermediate Microeconomics",
+    "section": "",
+    "text": "This is technically something called a random seed associated with a specific set of parameter values for each question↩︎",
     "crumbs": [
       "Welcome"
     ]
@@ -47,6 +57,46 @@
     "text": "1.2 Practice\n\npractice(\"inverse_demand\", problem_json, check_json)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Solving for Price: Inverse Demand</span>"
+    ]
+  },
+  {
+    "objectID": "percent-change.html",
+    "href": "percent-change.html",
+    "title": "2  Percentage Change",
+    "section": "",
+    "text": "2.1 The method\nWe compare changes in percentage terms all the time. A $1 price increase means something very different for a $4 coffee than for a $4,000 laptop. Percentage changes put both on the same scale, and are the building block of elasticity.\nWhen a value changes from an original value \\(x_0\\) to a new value \\(x_1\\):\n\\[\n\\%\\Delta x = \\frac{x_1 - x_0}{x_0} \\times 100\n\\]\nTake the change, divide by the starting value, and multiply by 100. Increases are positive and decreases are negative.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Percentage Change</span>"
+    ]
+  },
+  {
+    "objectID": "percent-change.html#the-method",
+    "href": "percent-change.html#the-method",
+    "title": "2  Percentage Change",
+    "section": "",
+    "text": "NoteExample\n\n\n\nA price rises from $10 to $12. The change is $2, so the percentage change is \\[\n\\frac{12 - 10}{10} \\times 100 = \\frac{2}{10} \\times 100 = 20\\%.\n\\]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Percentage Change</span>"
+    ]
+  },
+  {
+    "objectID": "percent-change.html#percentage-changes-dont-reverse",
+    "href": "percent-change.html#percentage-changes-dont-reverse",
+    "title": "2  Percentage Change",
+    "section": "2.2 Percentage changes don’t reverse",
+    "text": "2.2 Percentage changes don’t reverse\nSuppose the price then falls back from $12 to $10. The change is −$2, but the starting value is now $12:\n\\[\n\\frac{10 - 12}{12} \\times 100 = -16.67\\%\n\\]\nA 20% increase followed by a 16.67% decrease gets you back where you started. The same $2 is a smaller share of a bigger base. To fix this we can use the midpoint formula, which divides by the average of the two values so that the answer is the same in both directions. For now, always divide by the starting value.\n\n\n\n\n\n\nWarningCommon mistakes\n\n\n\n\nDividing by the new value instead of the starting value.\nForgetting to multiply by 100: 0.2 is the change as a decimal; 20% is the percentage.\nDropping the minus sign on a decrease.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Percentage Change</span>"
+    ]
+  },
+  {
+    "objectID": "percent-change.html#practice",
+    "href": "percent-change.html#practice",
+    "title": "2  Percentage Change",
+    "section": "2.3 Practice",
+    "text": "2.3 Practice\n\npractice(\"percent_change\", problem_json, check_json)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Percentage Change</span>"
     ]
   }
 ]
