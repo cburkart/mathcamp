@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Math Camp for Intermediate Microeconomics",
     "section": "",
-    "text": "Welcome\nThis mini-book reviews the math you’ll use in Intermediate Microeconomics. Each chapter explains one skill and then gives you unlimited practice: every practice problem is generated with fresh numbers, so you can keep going until the method feels automatic.",
+    "text": "Welcome\nThis mini-book reviews the math you’ll use in Intermediate Microeconomics. Each chapter explains one skill and then gives you unlimited practice: every practice problem is generated with fresh numbers, so you can keep going until you are confident you know how to solve.",
     "crumbs": [
       "Welcome"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#how-the-practice-problems-work",
     "title": "Math Camp for Intermediate Microeconomics",
     "section": "How the practice problems work",
-    "text": "How the practice problems work\n\nWork each problem on paper first, the same way you will on exams. Then type your final answers to check them.\nAnswers can be whole numbers, decimals, or fractions (-1/4 and -0.25 both work).\nIf an answer is wrong, the feedback tries to tell you why, for example if you made a common sign or algebra mistake.\nShow solution reveals a worked solution with the same numbers as your problem. Compare it with your own steps.\nEvery problem has a number. If you get stuck, note the number (for example, Problem #4821) and bring it to office hours: the same number always produces the same problem.\n\nThe first time you open a chapter with practice problems, your browser downloads a small version of R, which can take a few seconds. After that, problems load quickly.",
+    "text": "How the practice problems work\n\nWork each problem on paper first, then type your final answers to check them.\nAnswers can be whole numbers, decimals, or fractions (-1/4 and -0.25 should both work).\nIf an answer is wrong, the feedback tries to tell you why, for example if you made a common sign or algebra mistake.\nShow solution reveals a worked solution with the same numbers as your problem. Compare it to your own steps.\nEvery problem has a number (this is technically something callsed a random seed associated with a specific set of parameter values for each question). If you get stuck or find a glitch, you can note the number (for example, Problem #4821) to replicate it: the same number always produces the same problem.\n\nThe first time you open a chapter with practice problems, your browser downloads a small version of R, which can take a few seconds during which you’ll see a javascript error. After that, problems should load quickly.",
     "crumbs": [
       "Welcome"
     ]
@@ -24,7 +24,7 @@
     "href": "inverse-demand.html",
     "title": "1  Solving for Price: Inverse Demand",
     "section": "",
-    "text": "1.1 The method\nDemand curves are usually written with quantity as a function of price, such as \\(Q = 120 - 4P\\). But graphs in economics put price on the vertical axis, and many problems ask “what price clears the market if \\(Q\\) units are sold?” For both reasons you’ll often need the inverse demand curve: the same relationship solved for \\(P\\).\nStart from \\(Q = a - bP\\) and isolate \\(P\\):\n\\[\n\\begin{aligned}\nbP &= a - Q \\\\\nP &= \\frac{a}{b} - \\frac{1}{b}\\,Q\n\\end{aligned}\n\\]\nSo the inverse demand curve has intercept \\(a/b\\) and slope \\(-1/b\\).",
+    "text": "1.1 The method\nDemand functions are usually written with quantity as a function of price, such as \\(Q = 120 - 4P\\) (quantity demanded depends on price, or \\(Q\\) is a function of \\(P\\)). However, in economics we typically put price on the vertical axis when graphing. Also, some problems may ask “what price clears the market if \\(Q\\) units are sold?” For both reasons you’ll often want to use the inverse demand curve: the same relationship solved for \\(P\\) as a function of \\(Q\\).\nStart from \\(Q = a - bP\\) and isolate \\(P\\):\n\\[\n\\begin{aligned}\nbP &= a - Q \\\\\nP &= \\frac{a}{b} - \\frac{1}{b}\\,Q\n\\end{aligned}\n\\]\nSo the inverse demand curve has intercept \\(a/b\\) and slope \\(-1/b\\).",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Solving for Price: Inverse Demand</span>"
     ]
